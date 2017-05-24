@@ -55,8 +55,8 @@ public class WaveProgress extends FrameControl {
             System.out.println(wavePoints.size());
         }
         if (start.y <= 10){
-
             waveDirection = false;
+            System.out.println("gdafas");
         }
         if (start.y >= appHeight / 2.0f + appHeight / 4.0f){
             waveDirection = true;
